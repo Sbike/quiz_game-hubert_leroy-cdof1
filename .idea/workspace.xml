@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d660d396-4aa8-444d-aa40-3e5c5d3cf86c" name="Changes" comment="first version of the app with a sample quiz">
+    <list default="true" id="d660d396-4aa8-444d-aa40-3e5c5d3cf86c" name="Changes" comment="better version of the app with a GUI and a couple quizz samples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705929241002</updated>
       <workItem from="1705929242021" duration="424000" />
-      <workItem from="1705929702697" duration="3310000" />
+      <workItem from="1705929702697" duration="4972000" />
     </task>
     <task id="LOCAL-00001" summary="adding setup.py to init the project&#10;( plus the .idea directory)">
       <option name="closed" value="true" />
@@ -67,7 +67,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705931704785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="better version of the app with a GUI and a couple quizz samples">
+      <option name="closed" value="true" />
+      <created>1705934345314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705934345314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +84,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding setup.py to init the project&#10;( plus the .idea directory)" />
     <MESSAGE value="first version of the app with a sample quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version of the app with a sample quiz" />
+    <MESSAGE value="better version of the app with a GUI and a couple quizz samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="better version of the app with a GUI and a couple quizz samples" />
   </component>
 </project>
