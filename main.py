@@ -126,8 +126,13 @@ class QuizGame:
         if self.question_index < len(self.topics[self.current_topic]):
             self.next_question()
         else:
-            messagebox.showinfo("End of Quiz", f"Your final score is: {self.score}")
-            self.master.quit()
+            final_score_message = f"Your final score is: {self.score}\nDo you want to restart?"
+            user_response = messagebox.askyesno("End of Quiz", final_score_message)
+            
+            if user_response:
+                self.restart_quiz()
+            else:
+                self.master.quit()
 
     def next_question(self):
         self.question_label.config(text=self.topics[self.current_topic][self.question_index]['question'])
@@ -135,6 +140,15 @@ class QuizGame:
 
     def update_score(self):
         self.score_label.config(text=f"Score: {self.score}")
+
+    def restart_quiz(self):
+        # Reset quiz variables
+        self.score = 0
+        self.question_index = 0
+        self.update_score()
+
+        # Start a new quiz with the current selected topic
+        self.next_question()
 
 root = tk.Tk()
 quiz_game = QuizGame(root)
