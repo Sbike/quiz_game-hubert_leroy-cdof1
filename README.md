@@ -11,8 +11,9 @@ This application is perfect for anyone looking to test their skills or just have
 
 ## Installation
 1. Ensure you have Python 3.x installed on your machine. You can download it from [Python's official website](https://www.python.org/downloads/).
-2. Download the source code for the Quiz Game from the repository.
-3. If Tkinter is not installed, you can install it by running `pip install tk`.
+2. Don't forget to add Python to PATH and to disable path length limit
+3. Download the source code for the Quiz Game from the repository.
+4. If Tkinter is not installed, you can install it by running `pip install tk`.
 
 ## Usage
 To start the game, run the following command in your terminal or command prompt:
